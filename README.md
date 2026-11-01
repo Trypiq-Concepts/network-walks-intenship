@@ -22,14 +22,17 @@
 
 
 ---
-
- 📌 Project Overview
-
+  <section id="section-1">
+    <h2>📌 Project Overview</h2>
+ 
+  <p>
 This project focuses on setting up a **virtual cybersecurity and penetration-testing laboratory** using VirtualBox and Kali Linux.
 
 The purpose of the lab is to create a controlled environment where cybersecurity tools, network scanning, reconnaissance, vulnerability assessment, and other security-testing activities can be performed safely and repeatedly.
 
-The lab is configured on a private virtual network so that additional machines can be added later and used as targets for authorized security testing.
+The lab is configured on a private virtual network so that additional machines can be added later and used as targets for authorized security testing.</p>
+  </section>
+
 
 ---
 
@@ -57,11 +60,6 @@ The lab is configured on a private virtual network so that additional machines c
 
 <!-- Main Document Content -->
 <main>
-
-  <section id="section-1">
-    <h2>Introduction</h2>
-    <p>This is the introduction section. Clicking the link above will jump straight here.</p>
-  </section>
 
   <section id="section-2">
     <h2>Chapter 1: Getting Started</h2>
