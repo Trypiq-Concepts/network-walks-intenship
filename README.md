@@ -101,8 +101,13 @@ It can be used for activities such as:
   </section>
 
   <section id="section-4">
-    <h2>Conclusion</h2>
-    <p>This is the final summary conclusion.</p>
+    <h2>🏗️ Lab Architecture</h2>
+    <p>
+      <img width="2560" height="1600" alt="lab architecture" src="https://github.com/user-attachments/assets/5c920114-2e7e-41af-b508-00bcf2f969dd" />
+
+
+      Additional target machines can be added to the same virtual network in future projects.
+    </p>
   </section>
 
 <section id="section-4">
