@@ -203,6 +203,10 @@ Subnet Mask: 255.255.255.0
 Gateway: 10.0.0.1
 DNS: 8.8.8.8
 ```
+<img width="2560" height="1600" alt="ipv4 config" src="https://github.com/user-attachments/assets/fb8c9392-0efa-4b50-803d-163c0b755072" />
+
+
+<img width="2560" height="1600" alt="ping test" src="https://github.com/user-attachments/assets/1a3d231d-482b-4fdd-a8e9-e3cabb4115fb" />
 
 A consistent IP address makes it easier to document the lab and reference the Kali machine in future exercises.
 
