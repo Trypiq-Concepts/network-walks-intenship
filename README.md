@@ -102,52 +102,17 @@ It can be used for activities such as:
 
   <section id="section-4">
     <h2>🏗️ Lab Architecture</h2>
-    <p>
-      <img width="2560" height="1600" alt="lab architecture" src="https://github.com/user-attachments/assets/5c920114-2e7e-41af-b508-00bcf2f969dd" />
+    
+  <img width="2560" height="1600" alt="lab architecture" src="https://github.com/user-attachments/assets/5c920114-2e7e-41af-b508-00bcf2f969dd" />
 
-
+<p>
       Additional target machines can be added to the same virtual network in future projects.
     </p>
   </section>
 
 <section id="section-4">
     <h2>⚙️ Lab Configuration</h2>
-    <p>
-
-      <table>
-  <!-- Table Header (Column Titles) -->
-  <thead>
-    <tr>
-      <th>Section Name</th>
-      <th>Page Number</th>
-      <th>Estimated Read Time</th>
-    </tr>
-  </thead>
-
-  <!-- Table Body (Your Data Rows) -->
-  <tbody>
-    <tr>
-      <td>Introduction</td>
-      <td>Page 1</td>
-      <td>2 mins</td>
-    </tr>
-    <tr>
-      <td>Chapter 1: Getting Started</td>
-      <td>Page 5</td>
-      <td>7 mins</td>
-    </tr>
-    <tr>
-      <td>Chapter 2: Core Concepts</td>
-      <td>Page 12</td>
-      <td>15 mins</td>
-    </tr>
-    <tr>
-      <td>Conclusion</td>
-      <td>Page 25</td>
-      <td>3 mins</td>
-    </tr>
-  </tbody>
-</table>
+ 
 
 | 🧩 Component       | ⚙️ Configuration  |
 | ------------------ | ----------------    |
@@ -163,13 +128,14 @@ It can be used for activities such as:
 | 🚪 Default Gateway | 10.0.0.1           |
 | 🌍 DNS Server      | 8.8.8.8            |
 | 🔮 Future VM Range | 10.0.0.3–10.0.0.99 |
-    </p>
+
+ 
   </section>
 
   <section id="section-4">
     <h2>🪜 Lab Setup Procedure</h2>
-    <p>
-      Step 1. Install 7-Zip
+    
+  Step 1. Install 7-Zip
 
 7-Zip was installed to extract the Kali Linux virtual-machine package, which may be distributed as a `.7z` archive.
 
@@ -193,7 +159,9 @@ IPv4 Prefix:  10.0.0.0/24
 DHCP:         Enabled
 IPv6:         Disabled
 
-    </p>
+<img width="2560" height="1600" alt="NAT setup" src="https://github.com/user-attachments/assets/fd7bc9f4-d7c0-4133-aedc-c7e9cf027679" />
+
+
   </section>
 
 
