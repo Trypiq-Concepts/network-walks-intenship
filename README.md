@@ -110,7 +110,7 @@ It can be used for activities such as:
     </p>
   </section>
 
-<section id="section-4">
+<section id="section-5">
     <h2>⚙️ Lab Configuration</h2>
  
 
@@ -132,7 +132,7 @@ It can be used for activities such as:
  
   </section>
 
-  <section id="section-4">
+  <section id="section-6">
     <h2>🪜 Lab Setup Procedure</h2>
     
   Step 1. Install 7-Zip
@@ -225,7 +225,7 @@ If a future exercise changes or damages the VM configuration, the machine can be
   </section>
 
 
-  <section id="section-4">
+  <section id="section-7">
     <h2>🔎 Lab Verification</h2>
     
 | ✅ Test                        | 🧾 Command                     | 🎯 Expected Result            |
@@ -255,7 +255,7 @@ DNS:
   </section>
 
 
-  <section id="section-4">
+  <section id="section-8">
     <h2>🐞 Problems Encountered & Solutions</h2>
     <p>
      Documenting problems is an important part of the project.
@@ -295,25 +295,64 @@ After enabling virtualization, the VM started successfully.
   </section>
 
 
-  <section id="section-4">
-    <h2>Conclusion</h2>
-    <p>This is the final summary conclusion.</p>
+  <section id="section-9">
+    <h2>💡 What I Learned</h2>
+    <p>
+      Through this project, I learned how to create and configure a virtual environment for cybersecurity practice.
+
+The most important concepts I learned include:
+
+ 1. NAT vs NAT Network
+
+A standard NAT configuration and a NAT Network serve different purposes.
+
+A NAT Network allows multiple VMs connected to the same virtual network to communicate with one another while providing network address translation for external connectivity.
+
+This makes it useful for building a multi-machine cybersecurity laboratory.
+
+ 2. Virtual Machine Networking
+
+I learned how VirtualBox virtual network adapters connect virtual machines to different types of networks and how network configuration affects communication between machines.
+
+ 3. Static IP Configuration
+
+I learned how to configure and verify IPv4 addressing, subnet masks, gateways, and DNS settings in Kali Linux.
+
+ 4. VM Snapshots
+
+I learned that a clean snapshot should be created **before performing risky or experimental activities**.
+
+This provides a known-good recovery point for future cybersecurity exercises.
+
+ 5. Documentation
+
+I learned that documenting commands, configuration, screenshots, problems, and solutions is an important part of a professional cybersecurity project.
+
+---
+
+   </p>
   </section>
 
 
-  <section id="section-4">
-    <h2>Conclusion</h2>
-    <p>This is the final summary conclusion.</p>
+  <section id="section-10">
+    <h2>🔐 Security & Ethical Use</h2>
+    <p>This laboratory is intended strictly for education purposes only.</p>
+  </section>
+
+  <section id="section-11">
+    <h2>🔗 Tools & Resources</h2>
+    <p>
+     - **7-Zip:** [https://7-zip.org/download.html](https://7-zip.org/download.html)
+     - **VirtualBox:** [https://virtualbox.org/wiki/Downloads](https://virtualbox.org/wiki/Downloads)
+     - **Kali Linux:** [https://kali.org/get-kali](https://kali.org/get-kali)
+    </p>
   </section>
 
   <section id="section-4">
-    <h2>Conclusion</h2>
-    <p>This is the final summary conclusion.</p>
-  </section>
-
-  <section id="section-4">
-    <h2>Conclusion</h2>
-    <p>This is the final summary conclusion.</p>
+    <h2>👤 Author</h2>
+    <p>
+      This is the final summary conclusion.
+    </p>
   </section>
 
 
