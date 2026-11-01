@@ -342,9 +342,11 @@ I learned that documenting commands, configuration, screenshots, problems, and s
   <section id="section-11">
     <h2>🔗 Tools & Resources</h2>
     <p>
-      - 7-Zip: [https://7-zip.org/download.html](https://7-zip.org/download.html)
-      - VirtualBox: [https://virtualbox.org/wiki/Downloads](https://virtualbox.org/wiki/Downloads)
-      - Kali Linux: [https://kali.org/get-kali](https://kali.org/get-kali)
+       <ul>
+      <li>7-Zip: [https://7-zip.org/download.html](https://7-zip.org/download.html)</li>
+      <li>VirtualBox: [https://virtualbox.org/wiki/Downloads](https://virtualbox.org/wiki/Downloads)</li>
+      <li>Kali Linux: [https://kali.org/get-kali](https://kali.org/get-kali)</li>
+    </ul>
     </p>
   </section>
 
