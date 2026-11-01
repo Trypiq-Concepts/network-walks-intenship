@@ -113,6 +113,42 @@ It can be used for activities such as:
 <section id="section-4">
     <h2>⚙️ Lab Configuration</h2>
     <p>
+
+      <table>
+  <!-- Table Header (Column Titles) -->
+  <thead>
+    <tr>
+      <th>Section Name</th>
+      <th>Page Number</th>
+      <th>Estimated Read Time</th>
+    </tr>
+  </thead>
+
+  <!-- Table Body (Your Data Rows) -->
+  <tbody>
+    <tr>
+      <td>Introduction</td>
+      <td>Page 1</td>
+      <td>2 mins</td>
+    </tr>
+    <tr>
+      <td>Chapter 1: Getting Started</td>
+      <td>Page 5</td>
+      <td>7 mins</td>
+    </tr>
+    <tr>
+      <td>Chapter 2: Core Concepts</td>
+      <td>Page 12</td>
+      <td>15 mins</td>
+    </tr>
+    <tr>
+      <td>Conclusion</td>
+      <td>Page 25</td>
+      <td>3 mins</td>
+    </tr>
+  </tbody>
+</table>
+
 | 🧩 Component       | ⚙️ Configuration  |
 | ------------------ | ----------------    |
 | 🖥️ Host OS         | Windows 11         |
