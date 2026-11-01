@@ -205,23 +205,93 @@ DNS: 8.8.8.8
 ```
 <img width="2560" height="1600" alt="ipv4 config" src="https://github.com/user-attachments/assets/fb8c9392-0efa-4b50-803d-163c0b755072" />
 
-
-<img width="2560" height="1600" alt="ping test" src="https://github.com/user-attachments/assets/1a3d231d-482b-4fdd-a8e9-e3cabb4115fb" />
-
 A consistent IP address makes it easier to document the lab and reference the Kali machine in future exercises.
 
+
+Step 6. Create a Clean VM Snapshot
+
+After completing the initial configuration, a VirtualBox snapshot was created.
+
+Example snapshot name:
+
+```text
+Clean Kali - Network Setup
+```
+
+The snapshot represents the clean baseline of the laboratory.
+
+If a future exercise changes or damages the VM configuration, the machine can be restored to this baseline.
+
   </section>
 
 
   <section id="section-4">
-    <h2>Conclusion</h2>
-    <p>This is the final summary conclusion.</p>
+    <h2>🔎 Lab Verification</h2>
+    
+| ✅ Test                        | 🧾 Command                     | 🎯 Expected Result            |
+| -----------------------------  | ------------------------------- | ------------------------------- |
+| 🌐 Check IP address           | `ip a`                          | Correct Kali IP displayed       |
+| 📡 Test gateway               | `ping 10.0.0.1`                 | Successful replies              |
+| 🌍 Test Internet connectivity | `ping 8.8.8.8`                  | Successful replies              |
+| 🔎 Test DNS resolution        | `nslookup networkwalks.com`     | Domain resolves                 |
+| 🧰 Verify Nmap                | `nmap --version`                | Nmap version displayed          |
+| 🔄 Verify snapshot            | Restore snapshot and run `ip a` | Baseline configuration restored |
+    
+  Example Results
+
+```text
+IP Address:
+10.0.0.2/24
+
+Gateway:
+10.0.0.1
+
+DNS:
+8.8.8.8
+```
+<img width="2560" height="1600" alt="ping test" src="https://github.com/user-attachments/assets/3490c0cc-7d2e-4946-af48-da57acf61992" />
+<img width="2560" height="1600" alt="ping test 2" src="https://github.com/user-attachments/assets/f0f9249c-613e-45bd-a8f7-c55cde5ab848" />
+
   </section>
 
 
   <section id="section-4">
-    <h2>Conclusion</h2>
-    <p>This is the final summary conclusion.</p>
+    <h2>🐞 Problems Encountered & Solutions</h2>
+    <p>
+     Documenting problems is an important part of the project.
+
+## Problem 1. Internet Connectivity After Static IP Configuration
+
+After manually configuring the IPv4 settings, Internet connectivity may fail depending on the Kali/NetworkManager configuration.
+
+One workaround used during this lab was:
+
+```bash
+sudo nmcli connection modify "Wired connection 1" ipv4.dad-timeout 0
+```
+
+The network connection was then restarted/rebooted and connectivity was tested again.
+
+> **Important:** Network interface and connection names may differ between systems. Students should first identify their actual connection name before running an `nmcli` command.
+
+---
+
+## Problem 2. VirtualBox VT-x / Virtualization Error
+
+The VM initially failed to start because hardware virtualization was disabled in the system firmware/BIOS.
+
+The issue was resolved by:
+
+1. Restarting the computer.
+2. Entering BIOS/UEFI settings.
+3. Enabling Intel VT-x / hardware virtualization.
+4. Saving the configuration.
+5. Restarting the computer.
+6. Starting the Kali VM again.
+
+After enabling virtualization, the VM started successfully.
+
+  </p>
   </section>
 
 
