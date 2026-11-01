@@ -23,7 +23,7 @@
 
 ---
 
-## 📌 Project Overview
+ 📌 Project Overview
 
 This project focuses on setting up a **virtual cybersecurity and penetration-testing laboratory** using VirtualBox and Kali Linux.
 
@@ -34,25 +34,49 @@ The lab is configured on a private virtual network so that additional machines c
 ---
 
 
-<!-- Table of Contents Dropdown -->
-<label for="toc-dropdown"><strong>Table of Contents:</strong></label>
-<select id="toc-dropdown" onchange="location = this.value;">
-  <option value="" selected disabled>Select a section...</option>
-  <option value="#section-1">Introduction</option>
-  <option value="#section-2">Chapter 1: Getting Started</option>
-  <option value="#section-3">Chapter 2: Advanced Features</option>
-  <option value="#section-4">Conclusion</option>
-</select>
+<!-- Table of Contents -->
+<nav>
+  <h2>Table of Contents</h2>
+  <ul>
+    <li><a href="#section-1"> 📌 Project Overview</a></li>
+    <li><a href="#section-2">🎯 Objectives</a></li>
+    <li><a href="#section-3">🛡 Purpose of the Lab</a></li>
+    <li><a href="#section-4">🏗 Lab Architecture</a></li>
+    <li><a href="#section-5">⚙ Lab Configuration</a></li>
+    <li><a href="#section-6">🪜 Lab Setup Procedure</a></li>
+    <li><a href="#section-7">🔎 Lab Verification</a></li>
+    <li><a href="#section-8">🐞 Problems Encountered & Solutions</a></li>
+    <li><a href="#section-9">💡 What I Learned</a></li>
+    <li><a href="#section-10">🔐 Security & Ethical Use</a></li>
+    <li><a href="#section-11">🔗 Tools & Resources</a></li>
+    <li><a href="#section-12">Author</a></li>
+  </ul>
+</nav>
 
-<!-- Corresponding Page Sections -->
-<h2 id="section-1" style="margin-top: 500px;">Introduction</h2>
-<p>Content for introduction...</p>
+<hr> <!-- Visual separator line -->
 
-<h2 id="section-2" style="margin-top: 500px;">Chapter 1: Getting Started</h2>
-<p>Content for chapter 1...</p>
+<!-- Main Document Content -->
+<main>
 
-<h2 id="section-3" style="margin-top: 500px;">Chapter 2: Advanced Features</h2>
-<p>Content for chapter 2...</p>
+  <section id="section-1">
+    <h2>Introduction</h2>
+    <p>This is the introduction section. Clicking the link above will jump straight here.</p>
+  </section>
 
-<h2 id="section-4" style="margin-top: 500px;">Conclusion</h2>
-<p>Content for conclusion...</p>
+  <section id="section-2">
+    <h2>Chapter 1: Getting Started</h2>
+    <p>This is the first chapter content.</p>
+  </section>
+
+  <section id="section-3">
+    <h2>Chapter 2: Core Concepts</h2>
+    <p>This is the second chapter content.</p>
+  </section>
+
+  <section id="section-4">
+    <h2>Conclusion</h2>
+    <p>This is the final summary conclusion.</p>
+  </section>
+
+</main>
+
